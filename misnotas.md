@@ -97,3 +97,15 @@ Ver search.js
 
 ---
 
+Counicar contexto entre LLM y mi RAG:
+
+Este proceso trata sobre proporciar al LLM cualquiera la información sobre la pregunta del usuario y la respuesta de mi RAG para que el LLM arme una respuesta legible para el usuario en lugar de volcar los datos como JSON. 
+
+Ir a https://platform.openai.com/chat/edit?models=gpt-5.4-mini para simular respuesta
+
+----
+
+La columna metadata puede servir para buscar y actualizar la información junto con sus vectores del registro.
+
+--- 
+ANALIZAR FUNCTION CALL DE OPENAI para evaluar cuando una consulta debe ir al RAG y cuando dejar al LLM responder sin consultar al RAG.
